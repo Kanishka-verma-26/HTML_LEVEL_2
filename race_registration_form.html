@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration_form</title>
+</head>
+<body>
+<h1 style="text-align: center">Registration Form</h1>
+<form method="get" action="thanku.html">
+    <label for="email"><strong>E-mail: </strong></label>
+    <input id="email" type="email" name="email" placeholder="Enter Email" required><br><br>
+
+    <label><strong>Title:- </strong></label>
+    <label for="mister">MR. </label>
+    <input id="mister" type="radio" name="title" value="Mr.">&nbsp; &nbsp;
+    <label for="mistress">Mrs. </label>
+    <input id="mistress" type="radio" name="title" value="Mrs.">&nbsp; &nbsp;
+    <label for="miss">Miss </label>
+    <input id="miss" type="radio" name="title" value="Miss"><br><br>
+
+
+    <label for="fname"><strong>First Name :-</strong> </label>
+    <input id="fname" type="text" name="first_name" placeholder="enter first name" required>&nbsp; &nbsp;
+    <label for="lname"><strong>Last Name :-</strong> </label>
+    <input id="lname" type="text" name="last_name" placeholder="enter last name"><br><br>
+
+    <label for="add"><strong>Address :-</strong> </label>
+    <textarea id="add" name="address" rows="3" cols="50"></textarea><br><br>
+
+    <label for="ph"><strong>Phone :-</strong> </label>
+    <input id="ph" type="tel" name="ph no.: " required>&nbsp; &nbsp;
+    <label for="fax"><strong>Fax :-</strong> </label>
+    <input id="fax" type="text" name="fax: " ><br>
+    <br>
+
+    <label for="occupation"><strong>Occupation :-</strong> </label>
+    <input id="occupation" type="text" name="occupation: " >&nbsp; &nbsp;
+    <label for="Martstats"><strong>Marital status :-</strong> </label>
+    <input id="martstats" type="text" name="marital status: " ><br>
+
+    <p><strong>Emergency contact :</strong></p>
+    <div>
+        <label for="e-name"><strong>Name :-</strong> </label>
+        <input id="e-name" type="text" name="emergency_cont_name: " >
+    </div><br>
+    <div>
+        <label for="e-email"><strong>Email :-</strong> </label>
+        <input id="e-email" type="email" name="emergency_cont_email: " >
+    </div>
+   <br> <div>
+        <label for="e-ph"><strong>Phone :-</strong> </label>
+        <input id="e-ph" type="tel" name="emergency_cont_ph: " >
+    </div><br>
+    <label for="date"><strong>Enter Date :- <strong></strong></label>
+    <input  id="date" type="date" name="form_submission_date"><br>
+
+    <p><strong>Choose Payment Option: </strong></p>
+    <select name="payment">
+        <option value = "Paytm">Paytm</option>
+        <option value = "upi">UPI</option>
+        <option value = "Paypal">Paypal</option>
+        <option value = "Credit card">Credit card</option>
+        <option value = "Debit card">Debit card</option>
+        <option value = "cash">cash</option>
+
+
+    </select><br><br>
+    <input type="submit" name="Sign Up">
+    </form>
+
+</body>
+</html>
